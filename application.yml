@@ -13,4 +13,4 @@ microservice:
    getUserById: 
     uri: http://USER-SERVICE/users/
 test:
- input: 2
+ input: 344444444
