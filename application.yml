@@ -3,3 +3,12 @@ eureka:
   #this client should register to the server -i.e the url given below
    service-url:
     defaultZone: http://localhost:8761/eureka/
+microservice:
+ payment-service:
+  endpoints:
+   getPaymentById: 
+    uri: http://PAYMENT-SERVICE/payments/
+ user-service:
+  endpoints:
+   getUserById: 
+    uri: http://USER-SERVICE/users/
