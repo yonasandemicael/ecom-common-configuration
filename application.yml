@@ -12,3 +12,5 @@ microservice:
   endpoints:
    getUserById: 
     uri: http://USER-SERVICE/users/
+test:
+ input: 1
