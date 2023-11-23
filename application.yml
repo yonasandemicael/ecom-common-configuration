@@ -14,3 +14,6 @@ microservice:
     uri: http://USER-SERVICE/users/
 test:
  input: 344444444
+logging:
+ file:
+  name: E:\MIU\MSD\Career_startegy\revsion\Java\microservice\MicroserviceClass\app-logs\ecom-log 
